@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb; /* Faith Blue */
+  --color-accent: #10b981;  /* Peace Green */
+  --color-warning: #fbbf24; /* Consistency Yellow */
+  --color-neutral: #f9fafb; /* Background Gray */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-glow: 0 0 10px rgba(37, 99, 235, 0.3);
+}

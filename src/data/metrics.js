@@ -10,14 +10,14 @@ export const metrics = [
     id: 2,
     title: "Peace Level",
     value: 1,
-    color: "bg-green-500",
+    color: "bg-emerald-500",
     description: "How centered you feel spiritually.",
   },
   {
     id: 3,
     title: "Consistency Rate",
     value: 1,
-    color: "bg-yellow-500",
+    color: "bg-yellow-400",
     description: "How often you spend focused time with God each day.",
   },
 ];
