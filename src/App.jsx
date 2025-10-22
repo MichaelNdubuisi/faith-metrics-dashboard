@@ -1,11 +1,13 @@
+import Navbar from "./components/Navbar";
+import Dashboard from "./components/Dashboard";
+
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-900">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Faith Metrics Dashboard — Tailwind Ready ✅
-      </h1>
+    <div className="min-h-screen bg-gray-100">
+      <Navbar />
+      <Dashboard />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
